@@ -1,0 +1,211 @@
+/* ------ General Styles ------ */
+
+* {
+    
+}
+
+body {
+    margin: 0;
+    background-color: #BEBCAD;
+}
+
+h1 {
+    margin: 0;
+    padding: 5px 0 5px 15px;
+    color: #574D33;
+    line-height: 30px;
+    text-shadow: 0 0 3px #999;
+    background: repeating-linear-gradient(
+        -45deg,
+        rgba(0,0,0,0),
+        rgba(0,0,0,0) 2px,
+        rgba(0,0,0,0.1) 2px,
+        rgba(0,0,0,0.1) 4px
+    )
+}
+
+h2 {
+    
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+li {
+    border-bottom: dotted 1px black;
+    margin: 10px 0 0 8px;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: none;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+
+footer {
+    background-color: skyblue;
+    padding: 10px 0 10px 0;
+    opacity: 50%;
+}
+
+a {
+    color: #7ECDFF;
+}
+
+/* ------  Styles ------ */
+
+.main-container {
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    font: 12px Arial,Helvetica,sans-serif;
+    position: relative;
+    background-color: #A39572;
+}
+
+.column-container {
+    display: table;
+}
+
+.left-column {
+    width: 70%;
+    background-color: #E9E9E7;
+}
+
+.right-column {
+    width: 30%;
+    background-color: #A39572;
+    margin-left: 0;
+}
+
+.column {
+    display: table-cell;
+}
+
+/* ------ Images ------ */
+
+img {
+    width: 100%;
+    display: inherit;
+}
+
+#footer-image {
+    position: absolute;
+    bottom: 0;
+    width: 30%;
+}
+
+/* ------ Sidebar ------ */
+.right-column li a {
+    font-weight: bold;
+    color: #E5D9BC;
+    list-style-position: inside;
+    display: list-item;
+    list-style-type: disc;
+}
+
+.right-column li a:hover,
+.right-column li a.designer-name:hover {
+    color: #7ECDFF;
+}
+
+.right-column li a.designer-name {
+    font-weight: normal;
+    color: black;
+    display: inline;
+}
+
+#sidebar-header {
+    float: left;
+    transform: rotate(-90deg);
+    transform-origin: top left;
+    font-weight: bold;
+    font: 25px Arial,Helvetica,sans-serif;;
+    color: lightgrey;
+    position: absolute;
+    left: 10px;
+    top: 286px;
+}
+
+/* ------ Custom ------ */
+
+.whole-div-shadow {
+    box-shadow: 0 0 10px #999;
+}
+
+.font-weight-heavy {
+    font-weight: bold;
+}
+
+.float-left {
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.float-right {
+    text-align: right;
+    margin: 10px 30px 15px 0;
+}
+
+.caption-text {
+    text-align: right;
+    margin: 0 10px 15px 0;
+    padding-bottom: 15px;
+}
+
+#authors p {
+    text-align: center;
+    margin: 60px 20px 0px 20px;
+    padding-bottom: 150px;
+    margin-bottom: 0;
+}
+
+/* ------ articles ------ */
+
+#summary p{
+    text-align: right;
+    margin-top: 30px;
+}
+
+article h2 {
+    text-transform: uppercase;
+    font-size: 1em;
+    margin-left: 15px;
+    font-weight: lighter;
+    color: #A39572;
+}
+
+article p {
+    margin: 0 25px 0 25px;
+    color: #776946;
+}
+
+.left-article {
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+/* ------ navs ------ */
+#authors {
+    text-align: center;
+    margin-bottom: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://raw.githubusercontent.com/nss-evening-cohort-7/css-lecture/master/grass.jpg);
+}
+
+#bottom-nav {
+    text-align: center;
+    color: white;
+}
+
+#bottom-nav a{
+    color: white;
+}
