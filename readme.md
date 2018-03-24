@@ -1,7 +1,7 @@
 # HTML and CSS 101
-Practiced HTML and CSS by copying design from CSS Zen Garden. Focused on writing semantic HTML and having well organized CSS.
 
 ## Description
+Practiced HTML and CSS by copying design from CSS Zen Garden. Focused on writing semantic HTML and having well organized CSS.
 
 ## Screenshot
 ![screenshot](https://raw.githubusercontent.com/ledugani/html-css-101/master/screenshots/Screen%20Shot%202018-02-16%20at%203.06.22%20PM.png)
